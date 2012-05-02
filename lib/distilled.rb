@@ -19,6 +19,9 @@ module Distilled
       ActionController::Base.logger = logfile
       Rails.logger = logfile
 
+      # Needs to remain since the logger is cache by ActiveSupport::LogSubscriber class
+      @logger = logfile
+
       super
     end
 
