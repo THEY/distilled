@@ -1,6 +1,10 @@
 # Distilled
 
-Filters your rails logs by IP's.  Pretty simple, but I needed this on multiple projects, so gemification was the way to go.
+Filters your rails logs by IP's.  Use cases include filtering rails logs for:
+* Load balancers
+* Keep alive cron jobs
+
+Pretty simple, but I needed this on multiple projects, so gemification was the way to go.
 
 ## Installation
 

@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Distilled::VERSION
   s.authors     = ["Christopher Yeoh"]
   s.email       = ["christoperyeoh@gmail.com"]
-  s.homepage    = "http://shynnergy.com"
+  s.homepage    = "https://github.com/THEY/distilled"
   s.summary     = "Filter rails logs by IPs."
   s.description = "Filter rails logs by IPs."
 
